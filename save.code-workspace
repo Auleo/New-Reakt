@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "Reakt-1"
+		},
+		{
+			"path": "public"
+		},
+		{
+			"path": "src"
+		},
+		{
+			"path": "node_modules"
+		}
+	],
+	"settings": {}
+}
