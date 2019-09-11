@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 
 // JSX - lepszy html do react
 
@@ -6,13 +7,14 @@ import React from 'react';
      // () zwróć 
 const cwiczenie = () => {
     return ( 
-         <div className='app-cwiczenie'>
-             <h1>
+        <div className='app-cwiczenie'><center>
+            <h1>
              Lorem Ipsum
              </h1>
              <h3>
              Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. 
              </h3>
+             </center>
          </div>
     )
 
@@ -26,24 +28,24 @@ const Strong = ()=>{
 
 const todoList = ['todo1','todo2','todo3']
 
-// const forEach = (listOfElems, callback=()=>{})=>{
-//     for (const element of listOfElems){
-//         callback(element)
-//     }
-//     for (const idx in listOfElems){
-//         const element = listOfElems[idx]
-//         callback(element)
-//     }
-// }
+const forEach = (listOfElems, callback=()=>{})=>{
+     for (const element of listOfElems){
+         callback(element)
+     }
+     for (const idx in listOfElems){
+         const element = listOfElems[idx]
+         callback(element)
+     }
+ }
 
-// const map = (listOfElems, callback=()=>{})=>{
+ const map = (listOfElems, callback=()=>{})=>{
 
-//     const newArray = []
+     const newArray = []
 
-//     for (const element of listOfElems){
-//         const modifiedElement = callback(element)
-//         newArray.push(modifiedElement)
-//     }
+     for (const element of listOfElems){
+         const modifiedElement = callback(element)
+         newArray.push(modifiedElement)
+     }
 
 //     return newArray
 // }
