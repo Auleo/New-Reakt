@@ -1,26 +1,30 @@
-import React from 'react';
-import './App.css';
-
-// JSX - lepszy html do react
-
-// html - class="", jsx - className=""
-     // () zwróć 
+7
 const cwiczenie = () => {
     return ( 
         <div className='app-cwiczenie'><center>
-            <h1>
-             Lorem Ipsum
-             </h1>
-             <h3>
-             Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. 
-             </h3>
-             </center>
-         </div>
+        <h1>
+            Lorem Ipsum
+            </h1>
+            <h3>
+            Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. 
+            </h3>
+            <section>      
+            <table>
+                <tr>
+                    <td>1</td>	<td>...</td>
+                </tr>
+            <tr>
+                <td>2 </td>	<td>...</td>
+            </tr>
+            </table>                
+            </section>
+            </center>
+        </div>
     )
 
 }
-// jsx element
-const Small = (<small>mały tekst</small>);
+// jsx element 
+const Small = (<small>mały tekst</small>); // zadeklarowane wyrazenie - to oznacza zwróć / dla dodawania ikon
 
 const Strong = ()=>{
     return (<strong>Jakiś pogrubiony tekst</strong>)
