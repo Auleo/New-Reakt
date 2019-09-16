@@ -23,4 +23,4 @@
 
 # do przeczytania w celu zapoznania
 - https://www.w3schools.com/react/default.asp
-- https://jaxenter.com/introduction-react-147054.html
+- https://jaxenter.com/introduction-react-147054.html 

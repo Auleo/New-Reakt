@@ -106,7 +106,7 @@ const resolve = ()=>{
 const reject = ()=>{
     console.log('error')
 }
-
+  
 const timer = new Promise((resolve, reject)=>{
     setTimeout(()=>{
         if(false){

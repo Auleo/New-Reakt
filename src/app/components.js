@@ -130,7 +130,7 @@ class AuthForm extends Component {
         </div>
       )
     }
-    else{
+    else{    
       return (
         <form className="form">
           <h1>Formularz logowania</h1>

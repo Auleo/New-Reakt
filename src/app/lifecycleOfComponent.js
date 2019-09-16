@@ -124,7 +124,7 @@ class LifeCycleOfReactComponent extends Component {
         // probably you could never use it
         return true
     }
-
+   
     componentWillUnmount(){
         console.log('componentWillUnmount todolist')
     }

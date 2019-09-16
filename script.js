@@ -21,7 +21,7 @@ function add(a) {
 // object oriented programming twozymy programyy ,które si zesobą komunikują
 // 
 // functional programming - programowanie funkcyjne -wszystko co robimy w kodzie jest funkcja 
-
+  
 class Counter {
     constructor(props) {
         // super(props)

@@ -8,7 +8,7 @@ const Header = (props) => {
     // aby wyświetlić aktualną wartość propa text stosujemy składnie "{text}"
 	return <div>{text}</div>
 }
-
+ 
 // w taki sposób przekazujemy do komponentu "Header" prop "text"
 const View = (props) => {
 	return (
