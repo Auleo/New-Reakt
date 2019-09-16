@@ -25,6 +25,7 @@ const TempTable = ()=>{
       </tbody>
       <tfoot>
         <tr>
+          
           <td>Sum</td>
           <td>$180</td>
         </tr>

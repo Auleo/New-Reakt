@@ -14,10 +14,6 @@ class Input extends Component{
     render(){}
 }
 
-
-
-
-
 // 2. z podanego htmla wytworzyć aktywnie działające komponenty funkcyjne
 const htmlButton = (<div><button>Wciśnij mnie</button></div>)
 
@@ -25,9 +21,6 @@ const htmlButton = (<div><button>Wciśnij mnie</button></div>)
 // "label" ma być wyrenderowany jako label przycisku
 // "onButtonClick" ma być przyczepiony do eventu onclick tego buttona oraz ma logować do konsoli string "kliknięto przycisk"
 const Button = ()=>{}
-
-
-
 
 // 3. z podanego htmla wytworzyć aktywnie działające komponenty funkcyjne i stanowe
 const htmlTodoItem = (<li><h3>treść todo</h3></li>)

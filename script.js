@@ -25,7 +25,6 @@ function add(a) {
 class Counter {
     constructor(props) {
         // super(props)
-
         // properies
         this.startFrom = 0
         this.endOn = 10

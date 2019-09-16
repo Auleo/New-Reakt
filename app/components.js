@@ -23,13 +23,13 @@ const cwiczenie = () => {
     )
 
 }
+
 // jsx element 
 const Small = (<small>mały tekst</small>); // zadeklarowane wyrazenie - to oznacza zwróć / dla dodawania ikon
 
 const Strong = ()=>{
     return (<strong>Jakiś pogrubiony tekst</strong>)
 }
-
 const todoList = ['todo1','todo2','todo3']
 
 const forEach = (listOfElems, callback=()=>{})=>{
