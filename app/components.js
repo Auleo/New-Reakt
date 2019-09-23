@@ -1,4 +1,4 @@
-7
+
 const cwiczenie = () => {
     return ( 
         <div className='app-cwiczenie'><center>

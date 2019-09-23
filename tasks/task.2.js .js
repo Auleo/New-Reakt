@@ -1,5 +1,25 @@
 
  import React from 'react';
+<html>
+<head>
+<title>strony</title>
+<link rel="stylesheet" href="styl.css" type="text/css" />
+</head>
+
+<body>
+
+<header><p>header</p></header>
+
+<section><article><p>To jest nasza nowa strona
+internetowa.</p></article></section>
+<aside><p>aside</p></aside>
+
+<footer><p>footer</p></footer>
+
+</body>
+
+</html>
+
 // 1. z podanego htmla wytworzyć aktywnie działające komponenty stanowe
 const htmlInput = (<div>
         <input placeholder='Wpisz tekst'/>

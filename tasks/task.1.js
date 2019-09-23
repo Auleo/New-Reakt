@@ -1,7 +1,5 @@
  // 3 komponenty
 // https://www.w3schools.com/tags/tag_thead.asp
-
-
 // wymyślić jakieś dane do tabelki
 // zakodować tabelke w normalnym html i wyświetlić ją w apce reacta
 
@@ -9,8 +7,8 @@ const TempTable = ()=>{
     return (<table>
       <thead>
         <tr>
-          <th>Month</th>
-          <th>Savings</th>
+          <th>Miesiąc</th>
+          <th>save</th>
         </tr>
       </thead>
       <tbody>
@@ -30,7 +28,7 @@ const TempTable = ()=>{
           <td>$180</td>
         </tr>
       </tfoot>
-    </table>)
+    </table> )
   }
 
 // podzielić tabelkę na thead i tbody
