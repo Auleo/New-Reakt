@@ -75,11 +75,7 @@ const App = () => {
         )
       </div>
   )
-export default App
-
-
-
-
+export default App.js
 
 
 import TodoList from './components.js'
