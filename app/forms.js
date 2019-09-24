@@ -82,7 +82,7 @@ import TodoList from './components.js'
 import React, { Component } from 'react';
 
 class App extends Component {
-render() {
+render(){
   return (
     <table>
     <tr><td></td><td></td><td></td></tr>
@@ -91,6 +91,7 @@ render() {
     </table>
     )
   }
+}
   
 //    export {} defaul App;
 
